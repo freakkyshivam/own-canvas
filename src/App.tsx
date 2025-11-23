@@ -19,9 +19,7 @@ export default function App() {
 
 		editor.selectAll()
 
-		editor.zoomToSelection({
-			animation: { duration: 5000 },
-		})
+		 
 	}
 
 	return (
