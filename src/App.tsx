@@ -28,7 +28,7 @@ export default function App() {
 
 	return (
 		<div style={{ position: 'fixed', inset: 0 }}>
-			<Tldraw  onMount={handleMount} />
+			<Tldraw licenseKey={import.meta.env.VITE_KEY}  onMount={handleMount}  />
 		</div>
 	)
 }
