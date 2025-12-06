@@ -25,10 +25,11 @@ export default function App() {
   
 		 
 	}
+	 
 
 	return (
 		<div style={{ position: 'fixed', inset: 0 }}>
-			<Tldraw licenseKey={import.meta.env.VITE_KEY}  onMount={handleMount}  />
+			<Tldraw licenseKey='tldraw-2030-11-24/WyJSLXZ2VVFnYyIsWyIqLm93bi1jYW52YXMudmVyY2VsLmFwcCJdLDksIjIwMzAtMTEtMjQiXQ.T4FxYwWrTxadaHz8rZJHPO9VX2INRsH8wNQhu8qBtvF1BXbr2uYGW9GBC/GfCZjzZsl5v+oqorNG7YVjxd+dVg'  onMount={handleMount}  />
 		</div>
 	)
 }
